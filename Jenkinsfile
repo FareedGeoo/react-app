@@ -4,7 +4,7 @@ pipeline{
         nodejs "node"
     }
     environment {
-        imageName = "fareedgeoo/jenkins-app"  // imagename
+        imageName = "fareedgeoo/react-login-app"  // imagename
         registryCredential = "fareedgeoo" //username
         dockerImage = ''
     }
