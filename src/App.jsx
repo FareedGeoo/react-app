@@ -5,6 +5,9 @@ function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  const handelSubmit = (username,password)=>{
+    console.log(username , password )
+  }
   return (
     <div className="App">
       <div className='container'>
@@ -12,9 +15,7 @@ function App() {
         <div class="card mt-5">
           <div class="card-body">
             <div className="row">
-              <form data-testid="login-form" onSubmit={(username,password)=>{
-                console.log(username , password )
-              }}>
+              <form data-testid="login-form" onSubmit={handelSubmit}>
                 <div className="col-12">
                   <h3 className='mb-1'>Login</h3>
                   <div className="row">
@@ -33,7 +34,7 @@ function App() {
               <hr />
 
                       <div className="mb-3">
-                      <button data-testid="submit-button" type="button" className="btn btn-primary">Submit</button>
+                      <button data-testid="submit-button" type="sumbit" className="btn btn-primary">Submit</button>
                       </div>
                     </div>
 
