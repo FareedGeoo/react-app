@@ -1,0 +1,39 @@
+$theme-colors: (
+    "primary": #0076C0,
+    "secondary": #F4F4F4,
+    "success": #00bd78,
+    "info": #09a1ff,
+    "warning": #bda700,
+    "danger": #bd4800,
+    "light": #F5F5F5,
+    "dark": #002f4b
+);
+//Body
+$body-bg: #f5f5f5;
+//inputs
+$input-bg: #f4f4f4;
+$input-border-color: #EDEDED;
+$form-select-indicator: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#343A40" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" /> </svg>');
+$form-check-input-checked-bg-color: #00bd78;
+
+//card
+$card-bg: #fff;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.inputWithIcon {
+    position: relative;
+
+    .input-icon {
+        position: absolute;
+        height: 100%;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #6F767E
+    }
+    .icon-input {
+        padding-left: 2rem;
+    }
+}
