@@ -33,7 +33,7 @@ function App() {
               <hr />
 
                       <div className="mb-3">
-                      <button data-testid="submit-button" type="submit" className="btn btn-primary">Submit</button>
+                      <button data-testid="submit-button" type="button" className="btn btn-primary">Submit</button>
                       </div>
                     </div>
 
