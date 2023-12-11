@@ -7,6 +7,9 @@ function App() {
 
   const handelSubmit = (username,password)=>{
     console.log(username , password )
+    alert(username)
+    alert(password)
+
   }
   return (
     <div className="App">
