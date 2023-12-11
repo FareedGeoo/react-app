@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <div className='container'>
 
-        <div class="card mt-5">
-          <div class="card-body">
+        <div className="card mt-5">
+          <div className="card-body">
             <div className="row">
               <form data-testid="login-form" onSubmit={handelSubmit}>
                 <div className="col-12">
